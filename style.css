@@ -29,3 +29,36 @@ nav ul li {
     font-weight: bolder;
     font-size: 1.3rem;
 }
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin:  23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+}
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons {
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+}
+#myProgressBae {
+    width:80vw;
+}
