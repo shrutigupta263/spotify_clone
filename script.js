@@ -8,16 +8,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItemms = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "TU HAI TOH", filePath: "song/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "CHOR", filePath: "song/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "NEW THANG", filePath: "song/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "PERFECT", filePath: "song/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "MOVEMMENT", filePath: "song/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "BABY", filePath: "song/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "LET ME LOVE YOU", filePath: "song/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "NIGHT CHANGES", filePath: "song/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "AS IT WAS YOU", filePath: "song/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "TU HAI TOH", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "CHOR", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "NEW THANG", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "PERFECT", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "MOVEMMENT", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "BABY", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "LET ME LOVE YOU", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "NIGHT CHANGES", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "1000 HOURS", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "AS IT WAS YOU", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ]
 songItems.forEach((element, i)=>{ 
   element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
